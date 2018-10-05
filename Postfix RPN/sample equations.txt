@@ -1,0 +1,15 @@
+tan(cos(csc(x)))
+
+sinx
+
+x^2
+
+sin(1/x)*x
+
+sin(1/x) + (tan(csc(x)))^2
+
+(sin(x))^2 + sin(x)
+
+
+
+
