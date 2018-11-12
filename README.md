@@ -1,9 +1,15 @@
 # graphingCalculator
+Create a graphing calculator.
 
-Used C++ to implement RPN algorithm to calculate the input equation and used SFML to plot out the solution, creating graph-like line on the screen.
+The calculator will take an expression made up of numbers, instances of a single variable, Trig functions, in addition to functions taking more than one argument such as Max(a, b)
 
-- RPN
-- made stack
-- made queue
-- Inheritance 
-- SFML
+The calculator will draw a graph of the function for a given interval and given increments:
+
+queue<Point> PlotExpression (string expression, double low, double high, double increments);
+
+This function takes an expression as a string, the high and low values for the function variable and the increments and produces a queue of points that represent the graph.
+
+ Make sure you handle:
+
+ - Functions (specially, the Trig functions)
+ - The unary operator
