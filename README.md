@@ -9,7 +9,6 @@ queue<Point> PlotExpression (string expression, double low, double high, double 
 
 This function takes an expression as a string, the high and low values for the function variable and the increments and produces a queue of points that represent the graph.
 
- Make sure you handle:
+ Can handle:
 
  - Functions (specially, the Trig functions)
- - The unary operator
